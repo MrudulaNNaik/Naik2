@@ -18,4 +18,8 @@ class Singer(val song: String): SoundBehaviour by ScreamBehaviour(song){
 fun main(){
     val singer = Singer("some song")
     singer.makeSound()
+
+    var niitJavaStudent = NiitJavaStudent("mnn",456)
+    println(niitJavaStudent.name)
+    println(niitJavaStudent.age)
 }
